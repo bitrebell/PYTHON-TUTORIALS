@@ -15,6 +15,11 @@
 class Employee:
     no_of_leaves = 8
 
+    def __init__(self):
+        self.role = None
+        self.salary = None
+        self.name = None
+
     def printdetails(self):
         return f"Name is {self.name}. Salaary is {self.salary} and role is {self.role}"
 
@@ -32,3 +37,4 @@ aadil.salary = "7873"
 aadil.role = "CEO"
 
 print(aadil.printdetails())
+

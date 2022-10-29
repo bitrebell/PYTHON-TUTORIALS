@@ -1,46 +1,46 @@
-         #FAULTY CALCULATOR
+#          #FAULTY CALCULATOR
 
-print("choose your operator +, -, *, /")
-n1 = input()
-print("enter the both value with an enter")
-n2 = int(input())
-n3 = int(input())
-if n1 == "*" and n2 == 45 and n3 == 3:
-    print("555")
-elif n1 == "+" and n2 == 56 and n3 == 9:
-    print("77")
-elif n1 == "/" and n2 == 56 and n3 == 6:
-    print(4)
-elif n1 == "+":
-    plus = n2+n3
-    print(plus)
-elif n1 == "-":
-    minus = n2-n3
-elif n1 == "*":
-    multiply = n2*n3
-    print(multiply)
-elif n1 == "/":
-    divide = n2+n3
-    print(divide)
-else:
-    print(n1, "NOT ACCEPTABLE")
+# print("choose your operator +, -, *, /")
+# n1 = input()
+# print("enter the both value with an enter")
+# n2 = int(input())
+# n3 = int(input())
+# if n1 == "*" and n2 == 45 and n3 == 3:
+#     print("555")
+# elif n1 == "+" and n2 == 56 and n3 == 9:
+#     print("77")
+# elif n1 == "/" and n2 == 56 and n3 == 6:
+#     print(4)
+# elif n1 == "+":
+#     plus = n2+n3
+#     print(plus)
+# elif n1 == "-":
+#     minus = n2-n3
+# elif n1 == "*":
+#     multiply = n2*n3
+#     print(multiply)
+# elif n1 == "/":
+#     divide = n2+n3
+#     print(divide)
+# else:
+#     print(n1, "NOT ACCEPTABLE")
 
-n = 18
-number_of_guess=1
-print("Number of guesses is limited to only 9 times")
-while (number_of_guess <= 9):
-    guess_number=int(input("guess the number."))
-    print(9 - number_of_guess, "no. of guess left")
-    if guess_number<18:
-        print("you enter a less number please input greater number.")
-    elif guess_number > 18:
-        print("you enter a greater number please take some smaller number")
-    else:
-        print("you win congratulation!!!")
-        print(number_of_guess, "no. of guess you took to finish")
-        break
-    print(9-number_of_guess, "no. of guess left")
-    number_of_guess = number_of_guess + 1
+# n = 18
+# number_of_guess=1
+# print("Number of guesses is limited to only 9 times")
+# while (number_of_guess <= 9):
+#     guess_number=int(input("guess the number."))
+#     print(9 - number_of_guess, "no. of guess left")
+#     if guess_number<18:
+#         print("you enter a less number please input greater number.")
+#     elif guess_number > 18:
+#         print("you enter a greater number please take some smaller number")
+#     else:
+#         print("you win congratulation!!!")
+#         print(number_of_guess, "no. of guess you took to finish")
+#         break
+#     print(9-number_of_guess, "no. of guess left")
+#     number_of_guess = number_of_guess + 1
 
                      # USER BUILT FUNCTION
 # a = 9

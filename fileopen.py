@@ -1,5 +1,4 @@
-"""f = open("aadil.txt", "rt")
-print(f.readlines())
+# print(f.readlines())
 # content = f.read(65379)
 
 # for line in f:
@@ -8,7 +7,7 @@ print(f.readlines())
 # content = f.read(34456)
 # print("2", content)
 
-f. close() """
+# f. close() """
 
 # f = open("adil2.txt", "w")
 # a = f.write("aadil is here\n")
